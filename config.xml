@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="bestiee" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>machii</name>
+    <description>
+        My bestiee forever
+    </description>
+    <author email="vishnusri.vallipattu@gmail.com" href="http://vishnusri.ga">
+        web devoloper and bestie for my machi..
+    </author>
+    <content src="max.html" />
+    <access origin="*" />
+	
+	<!-- versions:
+	1.0.0 - 20170615 initial version converted from web
+	1.0.1 - 20170615 added an icon, drawn in paint.net converted with http://pgicons.abiro.com/
+    1.0.2 - 20170616 added support for link clicking - so added a more subdued "if you like this..."
+	-->
+	
+
+
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.3.0" />
+    <allow-intent href="https://www.instagram.com/mr_machi_24/" />
+    <allow-intent href="https://www.instagram.com/mr_machi_24/" />
+    <!-- <allow-intent href="twitter:*" /> -->
+
+
+	<platform name="ios">
+<icon src="res/icons/ios/icon-small.png" width="29" height="29"/>
+<icon src="res/icons/ios/icon-small-2x.png" width="58" height="58"/>
+<icon src="res/icons/ios/icon-40.png" width="40" height="40"/>
+<icon src="res/icons/ios/icon-40-2x.png" width="80" height="80"/>
+<icon src="res/icons/ios/icon-50.png" width="50" height="50"/>
+<icon src="res/icons/ios/icon-50-2x.png" width="100" height="100"/>
+<icon src="res/icons/ios/icon.png" width="57" height="57"/>
+<icon src="res/icons/ios/icon-2x.png" width="114" height="114"/>
+<icon src="res/icons/ios/icon-60.png" width="60" height="60"/>
+<icon src="res/icons/ios/icon-60-2x.png" width="120" height="120"/>
+<icon src="res/icons/ios/icon-60-3x.png" width="180" height="180"/>
+<icon src="res/icons/ios/icon-72.png" width="72" height="72"/>
+<icon src="res/icons/ios/icon-72-2x.png" width="144" height="144"/>
+<icon src="res/icons/ios/icon-76.png" width="76" height="76"/>
+<icon src="res/icons/ios/icon-76-2x.png" width="152" height="152"/>
+</platform>
+<platform name="android">
+<icon qualifier="ldpi" src="res/icons/android/icon-36-ldpi.png"/>
+<icon qualifier="mdpi" src="res/icons/android/icon-48-mdpi.png"/>
+<icon qualifier="hdpi" src="res/icons/android/icon-72-hdpi.png"/>
+<icon qualifier="xhdpi" src="res/icons/android/icon-96-xhdpi.png"/>
+<icon qualifier="xxhdpi" src="res/icons/android/icon-144-xxhdpi.png"/>
+<icon qualifier="xxxhdpi" src="res/icons/android/icon-192-xxxhdpi.png"/>
+</platform>
+<platform name="wp8">
+<icon src="res/icons/wp8/ApplicationIcon.png" width="99" height="99"/>
+<icon src="res/icons/wp8/Background.png" width="159" height="159"/>
+</platform>
+<platform name="windows">
+<icon src="res/icons/windows8/logo.png" width="150" height="150"/>
+<icon src="res/icons/windows8/smalllogo.png" width="30" height="30"/>
+<icon src="res/icons/windows8/storelogo.png" width="50" height="50"/>
+</platform>
+</widget>
